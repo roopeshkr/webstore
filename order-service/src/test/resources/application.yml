@@ -1,0 +1,6 @@
+inventory:
+  url: http://localhost:${wiremock.server.port}
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update

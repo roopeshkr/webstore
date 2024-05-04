@@ -1,0 +1,17 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: product-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: product-service
+logging:
+  file:
+    name: logs/product-service.log
+  level:
+    root: info
+    org.springframework.data.mongodb.core.MongoTemplate: debug
+    com.techie: debug
