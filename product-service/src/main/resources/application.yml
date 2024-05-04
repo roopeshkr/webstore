@@ -8,6 +8,11 @@ spring:
       host: localhost
       port: 27017
       database: product-service
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
 logging:
   file:
     name: logs/product-service.log
@@ -15,3 +20,4 @@ logging:
     root: info
     org.springframework.data.mongodb.core.MongoTemplate: debug
     com.techie: debug
+
